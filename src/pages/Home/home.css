@@ -1,0 +1,30 @@
+.home {
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.home_card {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+.card {
+    width: 200px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    box-shadow: rgba(187, 10, 10, 0.45) 0px 3px 8px;;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+}
